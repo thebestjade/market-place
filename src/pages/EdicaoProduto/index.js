@@ -10,7 +10,7 @@ import {
   CircularProgress
 } from '@material-ui/core'
 import useStyles from './styles';
-import { useHistory } from 'react-router';
+import { useHistory, Link } from 'react-router-dom';
 
 import { useForm } from 'react-hook-form';
 import Alert from '@material-ui/lab/Alert';
